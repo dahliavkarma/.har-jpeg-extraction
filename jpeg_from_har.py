@@ -53,7 +53,7 @@ def extract_base64_from_har(har_path, output_dir):
         encoding = content.get("encoding")
         mime_type = content.get("mimeType", "application/octet-stream")
         base64_str = content.get("text")
-        formatted_index = str(index).zfill(4)
+        formatted_index = str(index).zfill(5)
 
         if encoding == "base64" and base64_str:
             save_base64_to_file(base64_str, output_dir, original_file_name, mime_type, formatted_index)
