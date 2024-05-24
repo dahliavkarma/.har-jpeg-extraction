@@ -10,4 +10,4 @@ Does the following:
 - Rewrites the log so that only information about the files that are ultimately NOT saved on the disk remains in the log file. 
 - The status of retrieval will be printed in a console as well, which will not disappear until you have pressed a button. 
 
-This script will attatch the entreis' index numbers as 5-digit prefix. They might not be consecutive, since the only reason they are there is for the sake of file sorting. 
+This script will attatch the entries' index numbers as 5-digit prefix. They might not be consecutive, since the only reason they are there is for the sake of file sorting. 
