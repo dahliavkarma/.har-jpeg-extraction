@@ -11,3 +11,5 @@ Does the following:
 - The status of retrieval will be printed in a console as well, which will not disappear until you have pressed a button. 
 
 This script will attatch the entries' index numbers as 5-digit prefix. They might not be consecutive, since the only reason they are there is for the sake of file sorting. 
+
+I am already extracting image files only so this is not too slow for me; I would advise you to do so too. 
